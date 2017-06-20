@@ -1,17 +1,14 @@
 language: android
+
 jdk: oraclejdk8
-sudo: false
 
 android:
   components:
     - tools
-    - platform-tools
     - build-tools-25.0.2
     - android-25
 
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-    - addon-google_apis-google-19
-
-    - sys-img-armeabi-v7a-android-25
+    
